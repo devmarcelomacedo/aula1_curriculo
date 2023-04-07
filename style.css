@@ -1,0 +1,50 @@
+#header {
+    background-color:rgb(87, 141, 242) ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Hubballi', cursive;
+ 
+  
+    
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+#nameAndTitle {
+    background-color: #ffffff;
+    width: 400px;
+    margin: 0 auto; /*margin top 10, margin da direita 10, margin de baixo 10 e a margin esquerda 20*/
+    padding: 10px 10px 20px 30px; /*10 e 10 px superior direita e 20 30px superior esquerda*/
+    text-align: center;
+}
+#nameAndTitle h1, h2 {
+    margin: 0;
+
+}
+#contact {
+    list-style-type: none;
+}
+#contact i {
+    width: 30px;
+    color: rgb(73, 151, 228);
+}
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card {
+    border: 1px solid #b8b7b7;
+    border-radius: 27px;
+    padding: 20px;
+   
+}
+#lin {
+    list-style-type: none;
+}
